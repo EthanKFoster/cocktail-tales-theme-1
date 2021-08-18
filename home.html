@@ -10,33 +10,66 @@
 </head>
 <body>
     <div class="wrapper">
-        <header class=" container-fluid px-0">
+        <header class="container-fluid px-0">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid d-flex">
-                    <a class="navbar-brand" href="#"><img src="./images/CT.png" alt="Cocktail Tales Logo" width="100px" height="100px"></a>
+                <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse navbarNavAltMarkup" id="_nav_left">
-                        <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">Features</a>
-                        <a class="nav-link" href="#">Pricing</a>
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </div>
+                    <div class="collapse navbar-collapse navbar-nav navbarNavAltMarkup justify-content-around" id="_nav_left">
+                        <a class="nav-link active py-3" aria-current="page" href="./home.html">Home</a>
+                        <a class="nav-link py-3" href="#">Blog</a>
+                        <a class="nav-link py-3" href="#">Categories</a>
                     </div>    
-                    <div class="collapse navbar-collapse navbarNavAltMarkup" id="_nav_right">
-                        <div class="navbar-nav">
-                          <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
-                          <a class="nav-link" href="#">Features</a>
-                          <a class="nav-link" href="#">Pricing</a>
-                        </div>
+                    <a class="navbar-brand mx-auto px-5 border-start border-end border-1 border-secondary text-align-center" id="_nav_center" href="#">
+                        <img class="row mx-auto px-auto" src="./images/CT.png" alt="Cocktail Tales Logo" width="80px" height="80px">
+                        <h6 class="row">Cocktail Tales</h6>
+                    </a>
+                    <div class="collapse navbar-collapse navbar-nav navbarNavAltMarkup justify-content-around" id="_nav_right">
+                          <a class="nav-link py-3" href="#">Contact</a>
+                          <a class="nav-link py-3" href="#">About</a>
+                          <a class="nav-link py-3" href="#">Search</a>
                     </div>
                 </div>
               </nav>
         </header>
 
         <main>
+
+            <section class="_hero container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <div class="row hero_image himg1"></div>
+                        <div class="row htext">
+                            <h3>Recent Posts</h3>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row htext-main">
+                            <p>My name is Ethan and I love to make cocktails and explore the world of mixology. This is my personal recipe repository. <br> <strong>Let’s make some drinks together.</strong></p>
+                        </div>
+                        <div class="row hero_image himg2"></div>
+                    </div>
+                    <div class="col">
+                        <div class="row hero_image himg3"></div>
+                        <div class="row htext">
+                            <h3>Categories</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="_home_lists">
+
+            </section>
+
+            <section class="_email_signup">
+
+            </section>
+
+            <section class="_patreon_signup">
+
+            </section>
 
         </main>
 

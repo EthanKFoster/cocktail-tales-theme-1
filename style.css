@@ -1,13 +1,13 @@
 body, html {
     margin: 0px;
     padding: 0px;
-    background-color: #FEFEFE;
+    background-color: #FEFEFE !important;
 }
 
 .wrapper {
     max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto; 
+    margin-right: auto; 
     overflow-x: none;
     background-color: #FEFEFE;
 }
@@ -18,8 +18,58 @@ body, html {
 
 .navbar {
     height: 8rem !important;
+    min-height: fit-content;
+    margin
 }
 
 .navbar-brand {
-    
+
+}
+
+#_nav_center {
+    max-height: 6rem;
+}
+
+.active {
+    color: #DB995A !important;
+}
+
+._hero {
+    height: 2000px;
+    justify-content: space-around;
+    padding: 2rem .5rem;
+}
+
+.himg1, .himg2, .himg3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-self: center;
+    width: 366px;
+    height: 655px;
+    margin: auto;
+}
+
+.himg1 {
+    background-image: url(./images/figma-exports/Rectangle\ 2.png);
+}
+
+.himg2 {
+    background-image: url(./images/figma-exports/Rectangle\ 3.png);
+    height: 541px;
+}
+
+.himg3 {
+    background-image: url(./images/figma-exports/Rectangle\ 4.png);
+}
+
+.htext, .htext-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.htext {
+    background-image: url();
 }
