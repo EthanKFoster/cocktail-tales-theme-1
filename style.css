@@ -22,10 +22,6 @@ body, html {
     margin
 }
 
-.navbar-brand {
-
-}
-
 #_nav_center {
     max-height: 6rem;
 }
@@ -35,15 +31,14 @@ body, html {
 }
 
 ._hero {
-    height: 2000px;
-    justify-content: space-around;
-    padding: 2rem .5rem;
+    /* height: 2000px; */
+    /* justify-content: space-around; */
+    padding: 2rem .5rem 1rem .5rem;
 }
 
 .himg1, .himg2, .himg3 {
     background-size: contain;
     background-repeat: no-repeat;
-    justify-self: center;
     width: 366px;
     height: 655px;
     margin: auto;
@@ -67,9 +62,205 @@ body, html {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    /* margin-top: 1rem; */
 }
 
 .htext {
-    background-image: url();
+    background-image: url(./images/figma-exports/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 366px;
+}
+
+.htext-main {
+    background-image: url(./images/figma-exports/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 366px;
+}
+
+.homepage_viewall_button:hover {
+    background-color: #DB995A;
+    border-color: #DB995A;
+}
+
+.homepage_viewall_button {
+    max-width: 25%;
+    border: 1px #000;
+}
+
+._home_lists {
+    padding: 12px;
+}
+
+._posts_box {
+    min-width: 60%;
+    min-height: 50vh;
+    background-image: url(./images/figma-exports/posts\ background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.categories_box {
+    background-image: url(./images/figma-exports/categories\ background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.see_all_link {
+    text-decoration: none;
+}
+
+._email_signup {
+    background-image: url(./images/figma-exports/email-darkened-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-height: fit-content;
+    margin: auto;
+    /* height: 457px; */
+}
+
+.email_text {
+    /* max-width: 30%; */
+}
+
+.email_logo {
+    max-width: 200px;
+    max-height: 200px;
+    height: auto;
+}
+
+._patreon_signup {
+    min-height: 10rem;
+}
+
+.pimg, .pimgd {
+    /* max-width: 30%;
+    height: 655px; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.pimgd {
+    width: 100%;
+    height: 147px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.pimg-1 {
+    background-image: url(./images/figma-exports/pb-1.png);
+}
+
+.pimg-2 {
+    background-image: url(./images/figma-exports/pb-2.png);
+}
+
+.pimg-3 {
+    background-image: url(./images/figma-exports/pb-3.png);
+}
+
+footer {
+    background-color: #F4F4F4;
+    min-height: 10rem;
+    width: 100%;
+    margin: auto;
+}
+
+.fa-youtube, .fa-instagram, .fa-twitter, .fa-facebook {
+    font-size: 2.5em;
+}
+
+    .fa-youtube {
+        color: #C13232;
+    }
+
+    .fa-instagram {
+        color: #B86DB5;
+    }
+
+    .fa-twitter {
+        color: #03D2FF;
+    }
+
+    .fa-facebook {
+        color: #3450E2;
+    }
+
+
+
+
+/* Contact Page Specific Styling */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #DB995A;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #FFBC7C;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .contact_form {
+    border-radius: 5px;
+    background-image: url(./images/figma-exports/contact-form-bg.png);
+    padding: 20px;
+  }
+
+  .contact_form_center {
+    width: 60%;
+  }
+
+blockquote {
+    max-width: 50%;
+}
+
+.post_text {
+    max-width: 70%;
+}
+
+.btn-primary {
+    background-color: #DB995A !important;
+    border: none;
+}
+
+#cat-techniques {
+    background-image: url(./images/figma-exports/techniques-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 5rem;
+}
+
+.categories_page_section {
+    min-height: 50vh;
 }
