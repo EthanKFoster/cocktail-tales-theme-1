@@ -1,7 +1,14 @@
+/*
+Theme Name: Fictional University
+Author: Ethan Foster
+Version: 1.0
+*/
+
 body, html {
     margin: 0px;
     padding: 0px;
     background-color: #FEFEFE !important;
+    overflow-x: hidden;
 }
 
 .wrapper {
@@ -29,6 +36,23 @@ body, html {
 .active {
     color: #DB995A !important;
 }
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
 
 ._hero {
     /* height: 2000px; */
@@ -195,6 +219,21 @@ footer {
         color: #3450E2;
     }
 
+.fa-youtube:hover {
+    color: #c26b6b;
+}
+
+.fa-instagram:hover {
+    color: #b889b6;
+}
+
+.fa-twitter:hover {
+    color: #4cdafa;
+}
+
+.fa-facebook:hover {
+    color: #677add;
+}
 
 
 
